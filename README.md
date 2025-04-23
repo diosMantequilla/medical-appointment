@@ -38,6 +38,7 @@ Icons: React Icons
 Build Tool: Vite
 
 🤖 AI Tools Usage
+
 I used AI assistance strictly as a secondary support tool for:
 
 Code autocompletion
@@ -62,6 +63,7 @@ Interactive UI with animations
 Local state management
 
 ⚠️ Known Limitations
+
 No backend (uses mock data)
 
 No authentication
@@ -82,6 +84,7 @@ Enhance responsive design
 Add appointment reminders
 
 📄 License
+
 MIT License
 
 
