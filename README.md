@@ -1,54 +1,101 @@
-# React + TypeScript + Vite
+# Medical Appointments App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![App Screenshot](./public/screenshot.png) *Replace with actual screenshot*
 
-Currently, two official plugins are available:
+A responsive medical appointment booking application built with React, TypeScript, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+Access the deployed version here:  
+[https://invitro-capital-appointments.netlify.app/](https://invitro-capital-appointments.netlify.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Installation & Setup
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/medical-appointments.git
+cd medical-appointments
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# 2. Install dependencies
+npm install
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 3. Run development server
+npm run dev
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Open http://localhost:5173 in your browser.
+
+🔧 Technical Stack
+Frontend: React 18 + TypeScript
+
+Styling: Tailwind CSS
+
+State Management: Zustand
+
+Routing: React Router DOM
+
+Icons: React Icons
+
+Build Tool: Vite
+
+🤖 AI Tools Usage
+I used AI assistance strictly as a secondary support tool for:
+
+Code autocompletion
+
+Syntax suggestions
+
+Debugging assistance
+
+Documentation examples
+
+All core functionality was implemented manually to demonstrate my technical skills.
+
+📱 Current Features
+Doctor directory with filtering
+
+Appointment booking system
+
+Responsive mobile-first design
+
+Interactive UI with animations
+
+Local state management
+
+⚠️ Known Limitations
+No backend (uses mock data)
+
+No authentication
+
+No protected routes
+
+Responsive gaps (needs tablet/desktop refinements)
+
+🛠 Planned Improvements
+Implement Firebase backend
+
+Add user authentication
+
+Develop protected routes
+
+Enhance responsive design
+
+Add appointment reminders
+
+📄 License
+MIT License
+
+
+**To use this:**
+1. Create a `README.md` file in your project root
+2. Paste this entire content
+3. Replace placeholder values (GitHub URL, screenshot path)
+4. Add actual screenshot named `screenshot.png` in your `public/` folder
+
+The formatting uses standard Markdown with:
+- Clear section headers
+- Code blocks for installation commands
+- Emoji visual cues
+- Concise bullet points
+- Honest limitations disclosure
+
+Would you like me to adjust any section or add more technical details? 😊
